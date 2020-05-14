@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PMDMREC02</string>
+    <string name="usuario">Usuario</string>
+    <string name="administrador">Administrador</string>
+    <string name="fase">Ver fase de descofinamento</string>
+    <string name="sair">Sair</string>
+    <string name="engadirfase">Engadir fase</string>
+    <string name="SelecFase">Seleccionar fase para unha provincia</string>
+    <string name="ok">OK</string>
+    <string name="nome">Nome de usuario</string>
+    <string name="contrasinal">Contrasinal</string>
+    <string name="login">Login</string>
+    <string name="fase0">Fase 0</string>
+    <string name="coruna">A Coruña</string>
+    <string name="lugo">Lugo</string>
+    <string name="ourense">Ourense</string>
+    <string name="pontevedra">Pontevedra</string>
+    <string name="gardar">Gardar</string>
+</resources>
