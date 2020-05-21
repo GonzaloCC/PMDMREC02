@@ -16,4 +16,10 @@
     <string name="ourense">Ourense</string>
     <string name="pontevedra">Pontevedra</string>
     <string name="gardar">Gardar</string>
+    <string name="nomefase">Nome da fase</string>
+    <string name="caracteristicasFase">Caracteristicas da fase</string>
+    <string name="lugoImaxe">Imaxe da provincia de Lugo</string>
+    <string name="corunaImaxe">Imaxe da provincia da Coruña</string>
+    <string name="ourenseImaxe">Imaxe da provincia de Ourense</string>
+    <string name="pontevedraImaxe">Imaxe da provincia de Pontevedra</string>
 </resources>

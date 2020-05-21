@@ -75,4 +75,9 @@ public class ActivityUsuario extends AppCompatActivity {
         }
     }
 
+    public void sair(View view) {
+        Intent intentMain = new Intent(this, MainActivity.class);
+        startActivity(intentMain);
+    }
+
 }

@@ -12,11 +12,13 @@
 
 
 
+
+
     ]]>
 
     <Spinner
         android:id="@+id/spinnerProvincias"
-        android:layout_width="379dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginLeft="64dp"
@@ -24,9 +26,11 @@
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
         android:entries="@array/provincias"
+        app:layout_constraintBottom_toTopOf="@+id/buttonVerFase"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33" />
 
     <Button
         android:id="@+id/buttonVerFase"
@@ -34,14 +38,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="82dp"
         android:layout_marginLeft="82dp"
-        android:layout_marginTop="100dp"
         android:layout_marginEnd="82dp"
         android:layout_marginRight="82dp"
+        android:layout_marginBottom="16dp"
         android:onClick="verFase"
         android:text="@string/fase"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSair"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerProvincias" />
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/buttonSair"
@@ -49,11 +54,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="154dp"
         android:layout_marginLeft="154dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="154dp"
         android:layout_marginRight="154dp"
+        android:layout_marginBottom="100dp"
+        android:onClick="sair"
         android:text="@string/sair"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonVerFase" />
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
