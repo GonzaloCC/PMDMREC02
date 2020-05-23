@@ -8,17 +8,21 @@
 
     <ImageView
         android:id="@+id/imageViewPontevedra"
-        android:layout_width="350dp"
-        android:layout_height="192dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:contentDescription="@string/pontevedraImaxe"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.059"
-        app:srcCompat="@drawable/Pontevedra" />
+        app:srcCompat="@drawable/pontevedra" />
 
     <TextView
         android:id="@+id/textView8"
